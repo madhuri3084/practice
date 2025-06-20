@@ -1,0 +1,5 @@
+{
+	"browser":"chrome",
+	"login_url":"http://localhost:8000/",
+	"homepage_url" :"http://localhost:8000/"
+}

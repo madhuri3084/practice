@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-19T14:41:00 IST" name="Suite" finished-at="2025-06-19T14:41:32 IST" duration-ms="31349">
+    <groups>
+      <group name="regression">
+        <method signature="StudentDetailsTest.removeStudent()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" name="removeStudent" class="com.b2b.stuman.StudentInfo.StudentDetailsTest"/>
+        <method signature="StudentDetailsTest.updateStudentDetails()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" name="updateStudentDetails" class="com.b2b.stuman.StudentInfo.StudentDetailsTest"/>
+        <method signature="CompanyDetailsTest.deleteCompany()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" name="deleteCompany" class="com.b2b.stuman.companyInfo.CompanyDetailsTest"/>
+        <method signature="CompanyDetailsTest.updatecompanyDetails()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" name="updatecompanyDetails" class="com.b2b.stuman.companyInfo.CompanyDetailsTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="StudentDetailsTest.addStudent()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" name="addStudent" class="com.b2b.stuman.StudentInfo.StudentDetailsTest"/>
+        <method signature="CompanyDetailsTest.addCompany()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" name="addCompany" class="com.b2b.stuman.companyInfo.CompanyDetailsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-06-19T14:41:00 IST" name="Test" finished-at="2025-06-19T14:41:32 IST" duration-ms="31349">
+      <class name="com.b2b.stuman.StudentInfo.StudentDetailsTest">
+        <test-method is-config="true" signature="connToDb()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:00 IST" name="connToDb" finished-at="2025-06-19T14:41:00 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connToDb -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:00 IST" name="launchBrowser" finished-at="2025-06-19T14:41:02 IST" duration-ms="1768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:02 IST" name="login" finished-at="2025-06-19T14:41:07 IST" duration-ms="5308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addStudent()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:07 IST" name="addStudent" finished-at="2025-06-19T14:41:07 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStudent -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:07 IST" name="logout" finished-at="2025-06-19T14:41:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:07 IST" name="login" finished-at="2025-06-19T14:41:10 IST" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="removeStudent()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:10 IST" name="removeStudent" finished-at="2025-06-19T14:41:10 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeStudent -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:10 IST" name="logout" finished-at="2025-06-19T14:41:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:10 IST" name="login" finished-at="2025-06-19T14:41:13 IST" duration-ms="3766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updateStudentDetails()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:13 IST" name="updateStudentDetails" finished-at="2025-06-19T14:41:13 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStudentDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:14 IST" name="logout" finished-at="2025-06-19T14:41:14 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:14 IST" name="closeBrowser" finished-at="2025-06-19T14:41:16 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="colseDb()[pri:0, instance:com.b2b.stuman.StudentInfo.StudentDetailsTest@3c9754d8]" started-at="2025-06-19T14:41:32 IST" name="colseDb" finished-at="2025-06-19T14:41:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colseDb -->
+      </class> <!-- com.b2b.stuman.StudentInfo.StudentDetailsTest -->
+      <class name="com.b2b.stuman.companyInfo.CompanyDetailsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:16 IST" name="launchBrowser" finished-at="2025-06-19T14:41:17 IST" duration-ms="1340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:17 IST" name="login" finished-at="2025-06-19T14:41:22 IST" duration-ms="5127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addCompany()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:22 IST" name="addCompany" finished-at="2025-06-19T14:41:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCompany -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:22 IST" name="logout" finished-at="2025-06-19T14:41:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:22 IST" name="login" finished-at="2025-06-19T14:41:26 IST" duration-ms="4048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteCompany()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:26 IST" name="deleteCompany" finished-at="2025-06-19T14:41:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCompany -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:26 IST" name="logout" finished-at="2025-06-19T14:41:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:26 IST" name="login" finished-at="2025-06-19T14:41:30 IST" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updatecompanyDetails()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:30 IST" name="updatecompanyDetails" finished-at="2025-06-19T14:41:30 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatecompanyDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:30 IST" name="logout" finished-at="2025-06-19T14:41:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.b2b.stuman.companyInfo.CompanyDetailsTest@bcec361]" started-at="2025-06-19T14:41:30 IST" name="closeBrowser" finished-at="2025-06-19T14:41:32 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.b2b.stuman.companyInfo.CompanyDetailsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
